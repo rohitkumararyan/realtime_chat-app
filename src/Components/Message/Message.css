@@ -1,0 +1,29 @@
+.messageBox {
+    background-color:gainsboro;
+    width: 40%;
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.right{
+    float: right;
+    background-color: rgb(121, 108, 111);
+    color: white;
+    text-align: right;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    float: left;
+    text-align: left;
+    background-color: rgb(196, 255, 184);
+    
+}
